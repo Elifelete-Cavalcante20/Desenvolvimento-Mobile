@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -27,10 +28,15 @@ public class MainActivity2 extends AppCompatActivity {
         result = findViewById(R.id.receivedResults);
 
         Bundle dados = getIntent().getExtras();
-        nomeRecebido = dados.getString("nome");
-        idadeRecebida = dados.getInt("idade");
+        if (dados != null){
+            nomeRecebido = dados.getString("nome");
+            idadeRecebida = dados.getInt("idade");
 
-        result.setText("Nome: " + nomeRecebido + " idade: " + idadeRecebida);
+            result.setText("Nome: " + nomeRecebido + "\n"+ "Idade: " + idadeRecebida + " anos.");
+        }else{
+            result.setText("Nenhum dado recebido!");
+            Toast.makeText(this, "Nenhum dado recebido", Toast.LENGTH_SHORT).show();
+        }
 
         google.setOnClickListener(new View.OnClickListener(){
             @Override

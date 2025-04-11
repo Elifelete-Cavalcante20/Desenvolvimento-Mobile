@@ -35,10 +35,10 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     nomeSalvo = placeName.getText().toString();
                     idadeSalva = Integer.parseInt(placeAge.getText().toString());
-                    result.setText("Nome: " + nomeSalvo + " Idade: " + idadeSalva);
+                    result.setText("Nome: " + nomeSalvo + "\n" + "Idade: " + idadeSalva + " anos.");
                 }catch (Exception e){
                     Toast.makeText(MainActivity.this,
-                            "Insira os valores!",
+                            "Insira os dados!",
                             Toast.LENGTH_SHORT).show();
 //                          avisa caso nao tenha nenhum valor inserido nos campos de dados.
                 }

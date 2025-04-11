@@ -7,10 +7,6 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity2" android:orientation="vertical">
 
-    <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="249dp" app:srcCompat="@drawable/mail_sent_rafiki"
-            android:id="@+id/imageView2"/>
     <TextView
             android:layout_width="match_parent"
             android:layout_height="59dp" android:id="@+id/receivedResults" android:hint="Dados recebidos"
@@ -21,27 +17,30 @@
 
         <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
             <ImageView
-                    android:layout_width="178dp"
-                    android:layout_height="55dp" app:srcCompat="@drawable/google_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" app:srcCompat="@android:drawable/ic_menu_mapmode"
                     android:id="@+id/imageView3"/>
             <Button
                     android:text="Google"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/buttonGoogle"/>
+                    android:layout_height="wrap_content" android:id="@+id/buttonGoogle" android:insetLeft="20dp"
+                    android:insetRight="20dp"/>
         </TableRow>
         <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
             <ImageView
-                    android:layout_width="198dp"
-                    android:layout_height="match_parent" app:srcCompat="@drawable/email_logo"
-                    android:id="@+id/imageView4"/>
+                    android:layout_width="203dp"
+                    android:layout_height="match_parent" app:srcCompat="@android:drawable/ic_dialog_email"
+                    android:id="@+id/imageView"/>
             <Button
                     android:text="E-mail"
                     android:layout_width="209dp"
-                    android:layout_height="49dp" android:id="@+id/buttonEmail"/>
+                    android:layout_height="49dp" android:id="@+id/buttonEmail" android:insetLeft="20dp"
+                    android:insetRight="20dp"/>
         </TableRow>
     </TableLayout>
     <Button
             android:text="Voltar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/buttonBack"/>
+            android:layout_height="wrap_content" android:id="@+id/buttonBack" android:insetRight="150dp"
+            android:insetLeft="150dp"/>
 </LinearLayout>

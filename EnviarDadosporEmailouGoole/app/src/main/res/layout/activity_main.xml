@@ -7,10 +7,6 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity" android:orientation="vertical" app:flow_horizontalAlign="center"
         app:flow_verticalAlign="center" app:flow_wrapMode="aligned">
-    <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="263dp" app:srcCompat="@drawable/mail_sent_rafiki"
-            android:id="@+id/imageView"/>
     <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -35,24 +31,24 @@
                 android:layout_height="wrap_content">
             <Button
                     android:text="Resultado"
-                    android:layout_width="97dp"
+                    android:layout_width="130dp"
                     android:layout_height="wrap_content" android:id="@+id/resultButton" android:layout_weight="1"
-                    android:insetLeft="15dp" android:insetRight="10dp" app:backgroundTint="#0C208C"/>
+                    android:insetLeft="20dp" android:insetRight="20dp" app:backgroundTint="#0C208C"/>
             <Button
                     android:text="Enviar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:id="@+id/sendButton" android:layout_weight="1"
-                    android:insetLeft="10dp" android:insetRight="15dp" app:backgroundTint="#0C208C"/>
+                    android:insetLeft="20dp" android:insetRight="20dp" app:backgroundTint="#0C208C"/>
         </LinearLayout>
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp" android:id="@+id/result"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textAllCaps="false"
-                android:textAlignment="center" android:autoText="false" android:hint="Resultados recebidos"/>
+                android:textAlignment="center" android:autoText="false" android:hint="Resultado"/>
         <Button
                 android:text="Limpar"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/clearButton" android:insetLeft="15dp"
-                android:insetRight="15dp" app:backgroundTint="#0C208C"/>
+                android:layout_height="wrap_content" android:id="@+id/clearButton" android:insetLeft="150dp"
+                android:insetRight="150dp" app:backgroundTint="#0C208C"/>
     </LinearLayout>
 </LinearLayout>
