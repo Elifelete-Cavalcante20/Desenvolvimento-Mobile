@@ -2,7 +2,7 @@
 
 ### 5º Semestre Ciência da Computaçao 🚀🚀
 
-<p> Este repositório foi criado com a fomra de armazenar e estudar projetos e atividades passadas em sala de aula 
+<p> Este repositório foi criado com a fomra de estuda e armazenar projetos, atividades, trabalhos e provas passadas em sala de aula 
 na materia de desenvolvimento para dispositivos móveis.</p>
 
 <p> Ministrada por: </p> 
