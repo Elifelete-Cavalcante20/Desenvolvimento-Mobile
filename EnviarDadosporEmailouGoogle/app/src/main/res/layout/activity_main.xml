@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:orientation="vertical" app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center" app:flow_wrapMode="aligned">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/nameField" android:minHeight="48dp" tools:ignore="SpeakableTextPresentCheck"
+                android:hint="Nome"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/ageField" tools:ignore="SpeakableTextPresentCheck" android:minHeight="48dp"
+                android:hint="Idade"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <Button
+                    android:text="Resultado"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content" android:id="@+id/resultButton" android:layout_weight="1"
+                    android:insetLeft="20dp" android:insetRight="20dp" app:backgroundTint="#0C208C"/>
+            <Button
+                    android:text="Enviar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/sendButton" android:layout_weight="1"
+                    android:insetLeft="20dp" android:insetRight="20dp" app:backgroundTint="#0C208C"/>
+        </LinearLayout>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp" android:id="@+id/result"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textAllCaps="false"
+                android:textAlignment="center" android:autoText="false" android:hint="Resultado"/>
+        <Button
+                android:text="Limpar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/clearButton" android:insetLeft="150dp"
+                android:insetRight="150dp" app:backgroundTint="#0C208C"/>
+    </LinearLayout>
+</LinearLayout>
