@@ -1,4 +1,4 @@
-# 📱 PROGRAMAÇAO PARA DISPOSITIVOS MÓVEIS 📱
+# 📱 PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS 📱
 ## DESCRIÇÃO:
 <p><br>Este repositório tem por objetivo armazenar trabalhos, atividades e projetos desenvolvidos em sala de aula na matéria de desenvolvimento para dispositivos móveis durante seu periodo de ministração. Desta maneira podendo aperfeiçoar meus conhecimentos em Java, Git, GitHub, versionamento código e utilizaçao e consumo de API's.</p>    
 
